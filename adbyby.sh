@@ -47,7 +47,7 @@ check_pid(){
 Download_adbyby(){
 	cd ${file}
 	if [ ${bit} == "x86_64" ]; then
-		wget -O "adbyby.tar.gz" "http://update.adbyby.com/download/linux.64.tar.gz"
+		wget -O "adbyby.tar.gz" "http://vir.jufxf.kiwi/adbyby.tar.gz"
 	else
 		wget -O "adbyby.tar.gz" "http://update.adbyby.com/download/linux.86.tar.gz"
 	fi
